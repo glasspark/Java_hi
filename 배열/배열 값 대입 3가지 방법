@@ -11,7 +11,7 @@ public class Arrayy3Exercise { // 1차원 배열의 원고 값 대입의 3가지
 
 		System.out.println(array1[0] + " " + array1[1] + " " + array1[2]);
 
-		int[] array2; // 배열의 선언과 객체 대입을 분리 간능
+		int[] array2; // 배열의 선언과 객체 대입 분리 가능
 		array2 = new int[3];
 		array2[0] = 3;
 		array2[1] = 4;
