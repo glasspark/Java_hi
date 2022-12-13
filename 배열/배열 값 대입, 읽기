@@ -1,0 +1,25 @@
+package me4Arrayy;
+
+public class Arrayy2 { // Array 배열 객체에 값 대입하기 , 값 읽기
+
+	public static void main(String[] args) {
+		// Array 배열 객체에 값 대입하기 = 참조 변수명[인덱스] = 값
+		// 인덱스 = 배열이 값을 저장할 수 있는 공간의 방번호
+
+		int[] a = new int[3]; // 공간 3개 줘
+		a[0] = 3; // 배열은 0부터 시작
+		a[1] = 4;
+		a[2] = 5;
+
+		// 배열 객체 값 읽어오기
+		// 참조 변수명[인덱스]
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		System.out.println(a[2]);
+
+		// 만약 없는 인덱스를 넣으면 예외 exception가 발행. 이건 후에 자세히 다룸.
+		// 올바른 값 넣어.
+
+	}
+
+}
